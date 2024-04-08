@@ -3,10 +3,50 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Facebook</title>
     <link rel="stylesheet" href="src/style.css" />
   </head>
-  <body>
-    <h1 class="text-red-600">HELLo</h1>
+  <body class="bg-gray-100">
+    <div class="container mt-44 flex mx-auto">
+      <div class="left w-1/2 ml-16">
+        <img src="fb-removebg-preview.png" alt="Logo" class="w-80" />
+        <p class="text-3xl mx-8 font-sans">
+          Facebook helps you connect and share with the people in your life.
+        </p>
+      </div>
+      <div
+        class="right flex flex-col bg-white align-middle justify-center rounded w-1/3 border rounded-lg shadow-slate-50 relative"
+      >
+        <input
+          type="text"
+          placeholder="Email address or phone number"
+          class="h-12 border rounded-md border-gray-300 my-3 m-4 mt-3 outline-blue-300 pl-2"
+        />
+        <input
+          type="password"
+          placeholder="Password"
+          class="h-12 border rounded-md border-gray-300 my-3 m-4 outline-blue-300 pl-2"
+        />
+        <button
+          class="my-2 m-4 bg-blue-500 cursor-pointer px-4 py-2 border rounded-md text-white font-bold hover:bg-blue-400"
+        >
+          Log in
+        </button>
+        <span
+          class="my-2 m-4 text-blue-500 underline text-center cursor-pointer"
+          >Forgotten password?</span
+        >
+        <hr class="my-2 m-4" />
+        <button
+          class="my-2 m-4 my-2 m-4 bg-green-500 cursor-pointer px-4 py-2 border rounded-md text-white font-bold w-1/2 mx-auto hover:bg-green-400 mb-6"
+        >
+          Create new Account
+        </button>
+        <p class="text-center absolute -mb-96 ml-10">
+          <span class="font-bold cursor-pointer">Create a Page</span> for a
+          celebrity, brand or business.
+        </p>
+      </div>
+    </div>
   </body>
 </html>
