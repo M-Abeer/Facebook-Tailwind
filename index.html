@@ -3,10 +3,95 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Microsoft - Official Home Page</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Document</title>
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <h1 class="text-red-600">HELLo</h1>
+    <div class="container m-auto">
+      <div
+        class="navbar flex items-center justify-between p-4 cursor-pointer md:mx-12"
+      >
+        <div class="flex align-middle justify-center md:order-2">
+          <div class="hamburger inline-block mr-3 md:hidden">
+            <div class="line h-0.5 w-6 bg-black my-1"></div>
+            <div class="line h-0.5 w-6 bg-black my-1"></div>
+            <div class="line h-0.5 w-6 bg-black my-1"></div>
+          </div>
+          <div class="search md:hidden">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+        <div class="logo md:order-1 flex justify-center">
+          <div class="w-28"><img src="logo.png" alt="Logo" /></div>
+
+          <div
+            class="features bg-gray-300 w-fit md:flex absolute inset-0 -translate-x-28 md:space-x-4 md:w-auto md:bg-white md:static md:translate-x-0"
+          >
+            <div class="fitems md:ml-6">Microsoft 365</div>
+            <div class="fitems">Office</div>
+            <div class="fitems">Windows</div>
+            <div class="fitems">Surface</div>
+            <div class="fitems">Xbox</div>
+            <div class="fitems">Support</div>
+          </div>
+        </div>
+        <div class="account md:order-3 flex space-x-5">
+          <div class="search hidden md:block">All Microsoft</div>
+          <div class="search hidden md:block">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <div><i class="fa-solid fa-cart-shopping"></i></div>
+          <div><i class="fa-regular fa-user"></i></div>
+        </div>
+      </div>
+      <div
+        class="slider flex flex-col-reverse md:flex-row bg-[#f2f2f2] items- m-2 md:justify-start lg:justify-start md:mx-12"
+      >
+        <div
+          class="left flex flex-col justify-center items-center mx-5 text-center py-6 md:justify-center md:items-baseline md:text-left"
+        >
+          <h1 class="text-2xl md:text-4xl font-semibold">Surface Laptop 4</h1>
+          <p class="w-3/4">
+            Get things done faster and unleash your creativity with the power of
+            AI anywhere you go.
+          </p>
+          <button
+            class="my-6 px-4 py-2 bg-black cursor-pointer text-white font-bold"
+          >
+            Shop Now
+          </button>
+        </div>
+        <div class="right"><img src="main.jpg" alt="" /></div>
+      </div>
+      <div
+        class="icons space-y-6 md:flex md:flex-row md:mx-12 md:justify-center"
+      >
+        <div class="icon flex items-center mx-4 space-x-2 md:mt-5">
+          <img class="w-10" src="icon1.svg" alt="" />
+          <span class="font-medium">Choose your Microsoft 365</span>
+        </div>
+        <div class="icon flex items-center mx-4 space-x-2">
+          <img class="w-10" src="icon2.svg" alt="" />
+          <span class="font-medium">Shop for your business</span>
+        </div>
+        <div class="icon flex items-center mx-4 space-x-2">
+          <img class="w-10" src="icon3.svg" alt="" />
+          <span class="font-medium">Shop for accessories</span>
+        </div>
+        <div class="icon flex items-center mx-4 space-x-2">
+          <img class="w-10" src="icon4.svg" alt="" />
+          <span class="font-medium">Shop Xbox games and consoles</span>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
